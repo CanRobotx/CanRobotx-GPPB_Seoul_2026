@@ -470,3 +470,173 @@ Info Tag:
 - [Facebook 이미지 규격](https://www.facebook.com/business/ads-guide/image)
 - [Instagram 크리에이터 가이드](https://about.instagram.com/blog/tips-and-tricks)
 - [Twitter 미디어 가이드](https://developer.twitter.com/en/docs/twitter-api/v1/media/upload-media/overview)
+
+---
+
+## 🤖 AI 이미지 생성 프롬프트
+
+### 기본 프롬프트 (영문)
+
+```
+Create a modern, professional event poster for "Global Power Platform Bootcamp Seoul 2026". 
+
+Style: Clean, tech-focused, gradient background, flat design illustration
+Colors: Microsoft blue (#0078D4), light blue (#00BCF2), orange (#FF6B35)
+Elements: 
+- Abstract AI/robot illustrations
+- Laptop and coding symbols
+- Korean and international participants collaborating
+- Microsoft branding aesthetic
+- Futuristic tech workshop atmosphere
+
+Mood: Innovative, educational, hands-on, collaborative
+Composition: Centered, balanced, with space for text overlay
+Resolution: High quality, 1080x1080px square format
+Art style: Modern flat design, geometric shapes, smooth gradients
+Avoid: Photorealistic faces, cluttered details, dark themes
+```
+
+### 세부 시나리오별 프롬프트
+
+#### 1. 메인 비주얼 (표지용)
+```
+A vibrant tech event illustration with gradient background flowing from Microsoft blue (#0078D4) through cyan (#00BCF2) to orange (#FF6B35). In the center, abstract geometric shapes represent AI and technology: floating transparent cubes, connecting nodes, and circuit patterns. Minimalist laptop icons and AI brain symbols. Korean aesthetic with modern typography space. Clean, professional, inspiring. Flat design style, smooth gradients, 1080x1080px.
+```
+
+#### 2. 워크샵 장면 (실습 분위기)
+```
+Isometric illustration of a modern tech workshop. Multiple people sitting with laptops, colorful code on screens, holographic AI assistant floating above. Microsoft office environment with large windows, clean white space. Gradient accents in blue (#0078D4) to orange (#FF6B35). Collaborative atmosphere, diverse participants. Flat design, minimalist, bird's eye view. Tech icons and UI elements floating around. 1080x1080px square.
+```
+
+#### 3. AI Copilot 컨셉 (추상적)
+```
+Abstract representation of AI Copilot concept. Central glowing AI brain made of geometric shapes and circuits. Three orbiting elements representing different skill levels: graduation cap (beginner), gear (intermediate), code brackets (advanced). Gradient background: Microsoft blue to orange. Clean lines, modern tech aesthetic. Floating UI windows and data streams. Flat illustration, vibrant colors, futuristic. 1080x1080px.
+```
+
+#### 4. 트랙별 아이콘 세트
+```
+Three distinct icon illustrations for skill tracks:
+1. Green gradient (#28A745 to #34CE57): Beginner - graduation cap with AI sparkles, friendly robot assistant
+2. Blue gradient (#0078D4 to #00BCF2): Intermediate - gear system with SharePoint symbol, toolbox
+3. Orange gradient (#FF6B35 to #FF8C42): Advanced - code brackets with circuit board, developer terminal
+
+Flat design, consistent style, minimalist, modern tech aesthetic. Each icon in separate artboard, white background, 512x512px each.
+```
+
+#### 5. 카운트다운 배경
+```
+Dynamic countdown timer background. Large digital numbers "D-7" in bold modern font. Background with flowing gradient waves from Microsoft blue (#0078D4) to orange (#FF6B35). Abstract tech particles and light streaks. Energy and urgency feeling. Calendar icon and clock symbols integrated subtly. Flat design with depth, modern gradient mesh. Space for text overlay. 1080x1080px.
+```
+
+#### 6. 소셜 미디어 커버 (페이스북)
+```
+Wide panoramic tech event banner. Seoul cityscape silhouette in background with futuristic overlay. Gradient sky from blue (#0078D4) to orange (#FF6B35) sunset. Abstract AI symbols and Microsoft Power Platform icons floating. Clean, professional, inspiring. Space for centered text. Flat illustration style, modern, dynamic composition. 1200x630px Facebook cover format.
+```
+
+### 한국어 프롬프트 (한글 AI 도구용)
+
+#### 메인 비주얼 (Stable Diffusion, Midjourney 등)
+```
+마이크로소프트 테크 행사 포스터, 그라데이션 배경 (파란색 #0078D4에서 주황색 #FF6B35로), 추상적인 AI와 로봇 일러스트, 노트북과 코딩 심볼, 한국인과 외국인이 협업하는 모습, 플랫 디자인, 현대적이고 깔끔한 스타일, 기술 워크샵 분위기, 혁신적이고 교육적인 느낌, 중앙 배치, 텍스트 오버레이 공간 확보, 고해상도, 1080x1080px 정사각형 포맷, 사실적인 얼굴 피하기, 어두운 테마 피하기
+```
+
+#### 실습 장면
+```
+아이소메트릭 뷰의 현대적인 기술 워크샵, 여러 사람들이 노트북을 들고 앉아있고, 화면에 컬러풀한 코드, 홀로그램 AI 어시스턴트가 떠있음, 마이크로소프트 오피스 환경, 큰 창문과 깔끔한 화이트 공간, 파란색에서 주황색으로 그라데이션 포인트, 협업 분위기, 다양한 참가자들, 플랫 디자인, 미니멀리스트, 조감도, 기술 아이콘들이 주변에 떠있음, 1080x1080px 정사각형
+```
+
+### 프롬프트 활용 팁
+
+#### 1. 주요 키워드
+```
+필수 포함 키워드:
+- Microsoft aesthetic / 마이크로소프트 스타일
+- Tech workshop / 기술 워크샵
+- AI Copilot / AI 코파일럿
+- Flat design / 플랫 디자인
+- Gradient (#0078D4, #00BCF2, #FF6B35)
+- Clean, modern, professional / 깔끔하고, 현대적이고, 전문적인
+- Seoul / 서울
+```
+
+#### 2. 제외 키워드 (Negative Prompt)
+```
+피해야 할 요소:
+- Photorealistic, realistic faces / 사실적인, 실제 얼굴
+- Dark, gloomy, noir / 어두운, 음울한
+- Cluttered, messy / 복잡한, 지저분한
+- Low quality, blurry / 저품질, 흐릿한
+- Text, letters, words / 텍스트, 글자, 단어 (AI가 잘못 생성할 수 있음)
+- Corporate stock photo / 진부한 기업 스톡 사진
+```
+
+#### 3. 스타일 조정 파라미터
+```
+Midjourney 예시:
+--ar 1:1 (정사각형)
+--style raw (더 정확한 제어)
+--stylize 250 (중간 스타일화)
+--v 6 (최신 버전)
+
+DALL-E 3 예시:
+- Style: "digital art, flat design"
+- Quality: "HD, high quality"
+- Details: "clean lines, modern aesthetic"
+
+Stable Diffusion 예시:
+- Sampling steps: 30-50
+- CFG Scale: 7-10
+- Sampler: DPM++ 2M Karras
+```
+
+### 완성 예시 프롬프트 (복사해서 바로 사용)
+
+#### 🎨 Option 1: 미드저니 스타일
+```
+modern tech event poster, Microsoft Power Platform Bootcamp, gradient background from azure blue to orange, abstract AI brain and circuit patterns, laptop illustrations, Korean tech workshop atmosphere, flat design illustration, clean geometric shapes, professional and innovative mood, centered composition with text space, vibrant colors (#0078D4, #00BCF2, #FF6B35), minimalist style, high quality digital art --ar 1:1 --stylize 250 --v 6
+```
+
+#### 🎨 Option 2: DALL-E 스타일
+```
+Create a square poster (1080x1080px) for a Microsoft AI workshop in Seoul. Use a smooth gradient background flowing from blue (#0078D4) to orange (#FF6B35). Include abstract geometric illustrations of AI, laptops, and collaboration. Style: modern flat design with clean lines. Mood: professional, innovative, educational. Leave center space for text overlay. Avoid realistic faces and dark themes. Digital art, high quality.
+```
+
+#### 🎨 Option 3: Stable Diffusion 스타일
+```
+(best quality, masterpiece, professional digital art), tech conference poster, microsoft style, gradient background from blue to orange, abstract AI robot illustration, laptop and code symbols, modern flat design, clean geometric shapes, minimalist, vibrant colors, professional lighting, centered composition, 1:1 aspect ratio, (no text, no faces, no dark theme:1.2)
+
+Negative prompt: photorealistic, dark, cluttered, messy, low quality, blurry, text, letters, realistic faces, stock photo, corporate cliche
+```
+
+#### 🎨 Option 4: 한국형 AI (시그)
+```
+마이크로소프트 기술 행사 포스터, 파란색에서 주황색 그라데이션 배경, 추상적인 AI 뇌와 회로 패턴, 노트북 일러스트레이션, 서울 기술 워크샵 분위기, 플랫 디자인 일러스트, 깔끔한 기하학적 도형, 전문적이고 혁신적인 분위기, 텍스트 공간이 있는 중앙 구도, 생생한 색상, 미니멀리스트 스타일, 고품질 디지털 아트, 정사각형 비율, 사실적인 얼굴 제외, 어두운 테마 제외
+```
+
+### 생성 후 Canva에서 편집하기
+
+1. **AI로 생성한 이미지를 Canva에 업로드**
+2. **Background Remover 사용** (필요시 특정 요소만 추출)
+3. **텍스트 오버레이 추가**:
+   - 제목: "Global Power Platform Bootcamp Seoul 2026"
+   - 날짜: "2026.2.21"
+   - CTA: "지금 신청하기"
+4. **브랜드 컬러로 보정**: 색상 필터 적용
+5. **로고/아이콘 추가**: Microsoft 로고 (사용 권한 확인 필수)
+
+### 주의사항
+
+⚠️ **저작권 및 사용권**
+- AI 생성 이미지의 상업적 사용 권한 확인
+- Microsoft 로고는 공식 가이드라인 준수
+- 발표자 사진은 실제 사진 사용 (AI 생성 금지)
+
+⚠️ **품질 체크**
+- 해상도 확인: 최소 1080px
+- 색상 정확도: RGB 값 매칭
+- 텍스트 가독성: 배경 대비 확인
+
+⚠️ **문화적 고려사항**
+- 한국 문화에 적합한 비주얼
+- 다양성 존중 (성별, 연령, 인종)
+- 포용적인 이미지 사용

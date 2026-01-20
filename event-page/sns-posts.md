@@ -12,9 +12,7 @@
 ### 페이스북 / 링크드인 (긴 버전)
 
 ```
-🚀 Microsoft Power Platform 공식 행사 오픈!
-
-Global Power Platform Bootcamp Seoul 2026이 드디어 공개됩니다!
+ 🚀 Global Power Platform Bootcamp Seoul 2026이 드디어 공개됩니다!
 
 📌 하루 만에 완성하는 AI Copilot Agent
 단순히 듣는 행사가 아닙니다. 노트북을 가지고 직접 AI 에이전트를 만들어가는 핸즈온 워크샵입니다.
